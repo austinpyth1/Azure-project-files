@@ -1,4 +1,4 @@
-# Creating a Static Web App in Azure
+# Creating a Static Web App on Azure
 ## Objective
 Understand how to host and manage simple static websites, using Azure’s cloud infrastructure.
 
