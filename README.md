@@ -1,44 +1,45 @@
-# Securing-Remote-Access-for-Linux-Virtual-Machines-on-Azure
+# Creating a Static Web App in Azure
 ## Objective
-Understand the fundamentals of securing remote access.
-Configure remote access for Linux VMs on Azure.
-Implement best practices for securing SSH connections.
-Utilize Azure security features to enhance VM protection
+Understand how to host and manage simple static websites, using Azure’s cloud infrastructure.
+
+Understand continuous deployment from GitHub, and basic cloud-based web hosting.
 
 ### Skills Learned
 
 
-- Configuring Azure Virtual Machines: Learn how to set up Linux VMs on Azure, -including selecting appropriate settings and options for your needs.
-- Securing Remote Access: Understand how to configure SSH access securely, including the use of SSH key pairs and the disabling of password authentication.
-- Network Security Group (NSG) Management: Gain experience in configuring NSG rules to control and monitor inbound and outbound traffic to your VMs.
-- Best Practices for Linux Security: Learn best practices for securing Linux servers, including the use of firewalls, monitoring, and logging.
-- Using Azure Security Features: Explore Azure-specific security features such as Azure Bastion for secure connectivity without exposing VMs to the public internet.
-- Troubleshooting Connectivity Issues: Develop troubleshooting skills for common issues related to SSH access and VM connectivity.
-### Tools Used
+Skills Learned:
+Cloud Infrastructure Understanding: Learn how to leverage Azure’s Static Web App service to host websites.
+
+Version Control and Deployment: Use GitHub for version control and continuous deployment.
+
+Azure Resource Management: Understand how to create, configure, and manage cloud resources in the Azure portal.
+
+Continuous Integration (CI)/Continuous Deployment (CD): Implement automated deployments from GitHub repositories.
+Basic Networking & Security: Learn how to secure static web apps with features like custom domains and SSL certificates.
 Tools Used
 1. Azure Portal
-Used to create and manage Linux Virtual Machines.
-Configured Network Security Groups (NSGs) and enabled Just-In-Time (JIT) VM access.
-2. SSH (Secure Shell)
-The primary tool for remote access to the Linux VM.
-Configured SSH key-based authentication and disabled password-based login.
-3. Azure Bastion
-Securely accessed the Linux VM without exposing its public IP.
-Enhanced security by providing remote access over a secure Azure-managed connection.
-4. Azure CLI (Command Line Interface)
-Managed Azure resources like VMs and NSGs via the command line.
-Deployed and configured security settings using commands.
-5. Network Security Groups (NSG)
-Restricted SSH access to specific IP addresses by setting up inbound and outbound security rules.
-6. Azure Security Center
-Monitored security configurations and detected vulnerabilities in the Linux VM.
-Enabled Just-In-Time (JIT) access for time-limited remote sessions.
-7. Linux Command-Line Tools
-Configured and managed SSH settings.
-Used tools like nano, systemctl, and sshd_config for editing configuration files and restarting services.
+Used to create and manage Linux Web App.
 
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+2.GitHub: 
+For source control and deployment integration.
+  
+3. HTML/CSS/JavaScript: To create the static website content.
+
+
 
 ## Steps
+- Login into your Azure account or sign up if no acccount
+- In the Azure Portal, search for App servicees and click Create or plus sign.
+- Configure the Basic Settings
+Subscription: Select your Azure subscription.
+Resource Group: Either create a new resource group or se!
+lect an existing one.
+Name: Enter a unique name for your static web app.
+Region: Choose a region of your preference(e.g., West Europe, East US, etc.).
+![Screenshot (64)](https://github.com/user-attachments/assets/c1d2b1ca-6a07-47d6-a913-93b60bbfdc0b)
+connect your github account
+![Screenshot (65)](https://github.com/user-attachments/assets/2b265628-d930-4a9a-a2f1-c471fd7a583d)
+
+
+
+
