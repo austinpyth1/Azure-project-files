@@ -26,7 +26,6 @@ For source control and deployment integration.
 3. HTML/CSS/JavaScript: To create the static website content.
 
 
-
 ## Steps
 - Login into your Azure account or sign up if no acccount
 - In the Azure Portal, search for App servicees and click Create or plus sign.
