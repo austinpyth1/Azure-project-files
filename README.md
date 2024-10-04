@@ -1,44 +1,63 @@
-# Creating a Static Web App on Azure
-## Objective
-Understand how to host and manage simple static websites, using Azure’s cloud infrastructure.
+# Azure Storage Account Setup
 
-Understand continuous deployment from GitHub, and basic cloud-based web hosting.
+## Objectives
+- Set up an Azure Storage Account in Microsoft Azure.
+- Create a blob container for file storage.
+- Upload and download files using Azure.
 
-### Skills Learned
+## Skills Learned
+- Cloud storage management.
+- Understanding data redundancy options in Azure.
+
+## Technologies Used
+- Azure Storage Account.
+- Blob Storage.
 
 
-Skills Learned:
-Cloud Infrastructure Understanding: Learn how to leverage Azure’s Static Web App service to host websites.
-
-Version Control and Deployment: Use GitHub for version control and continuous deployment.
-
-Azure Resource Management: Understand how to create, configure, and manage cloud resources in the Azure portal.
-
-Continuous Integration (CI)/Continuous Deployment (CD): Implement automated deployments from GitHub repositories.
-Basic Networking & Security: Learn how to secure static web apps with features like custom domains and SSL certificates.
+## Description
+This project demonstrates how to create and manage an Azure Storage Account and Blob containers using Azure. It includes step-by-step instructions for setting up the account, creating a blob container, and managing files.
 Tools Used
 1. Azure Portal
 Used to create and manage Linux Web App.
+2. Azure storage
+3. Containers
 
-2.GitHub: 
-For source control and deployment integration.
-  
-3. HTML/CSS/JavaScript: To create the static website content.
 
 
 
 ## Steps
-- Login into your Azure account or sign up if no acccount
-- In the Azure Portal, search for App servicees and click Create or plus sign.
-- Configure the Basic Settings
-Subscription: Select your Azure subscription.
-Resource Group: Either create a new resource group or se!
-lect an existing one.
-Name: Enter a unique name for your static web app.
-Region: Choose a region of your preference(e.g., West Europe, East US, etc.).
-![Screenshot (64)](https://github.com/user-attachments/assets/c1d2b1ca-6a07-47d6-a913-93b60bbfdc0b)
-connect your github account
-![Screenshot (65)](https://github.com/user-attachments/assets/2b265628-d930-4a9a-a2f1-c471fd7a583d)
+- Log in to the Azure Portal:
+Go to the Azure Portal and sign in with your credentials.
+- Create a New Storage Account:
+In the left-hand menu, click on Storage accounts or search for "Storage accounts" in the search bar.
+Click on Create to start the creation process.
+- Set Storage Account Details:
+Resource group: Select an existing resource group or create a new one.
+Storage account name: Enter a unique name for your storage account. This must be globally unique because it's used for the URL 
+Region: Choose the location.
+Performance: Select between Standard (cost-effective) or Premium (higher performance, higher cost).
+Redundancy: Choose the replication option (e.g., Locally-redundant storage (LRS) for simple redundancy within a region)
+![Screenshot (67)](https://github.com/user-attachments/assets/59d679b0-c22c-4102-ae9b-2c51b5475292)
+On the Advanced tab of the Create a storage account blade, Allow enabling anonymous access on individual containers  Leave the defaults for everything else.
+![Screenshot (68)](https://github.com/user-attachments/assets/f821602c-c093-43de-8a7d-4601dc35194d)
+- Select Review and Create to make your new blob storage
+  ## Work with blob storage
+- click on upload then create a new container
+- set the access level to public and allow anonymous user to view
+![Screenshot (70)](https://github.com/user-attachments/assets/4b6feafc-508d-4700-9604-9ad86a2c3521)
+![Screenshot (71)](https://github.com/user-attachments/assets/15042201-1cdc-44b0-8499-108caf9b3885)
+
+ - click on the new container and then upload a new blob to it
+ - the blob used in this project is just an image
+  ![Screenshot (73)](https://github.com/user-attachments/assets/687032d5-3d91-482f-b48e-fe5bf582b325)
+- Select the Blob (file) you just uploaded. You should be on the properties tab.
+- Copy the URL from the URL field and paste it into a new tab. You should be able to view it because you allowed it you can set it to private if you do not want it to be viewed in the public. url is https://bobosmomosstorage1.blob.core.windows.net/austin-container/1.jpg
+
+
+
+
+
+
 
 
 
