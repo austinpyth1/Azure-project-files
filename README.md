@@ -1,21 +1,21 @@
-# Creating a Static Web App on Azure
-## Objective
-Understand how to host and manage simple static websites, using Azure’s cloud infrastructure.
+# Azure Storage Account Setup
 
-Understand continuous deployment from GitHub, and basic cloud-based web hosting.
+## Objectives
+- Set up an Azure Storage Account in Microsoft Azure.
+- Create a blob container for file storage.
+- Upload and download files using Azure CLI.
 
-### Skills Learned
+## Skills Learned
+- Cloud storage management.
+- Understanding data redundancy options in Azure.
+
+## Technologies Used
+- Azure Storage Account.
+- Blob Storage.
 
 
-Skills Learned:
-Cloud Infrastructure Understanding: Learn how to leverage Azure’s Static Web App service to host websites.
-
-Version Control and Deployment: Use GitHub for version control and continuous deployment.
-
-Azure Resource Management: Understand how to create, configure, and manage cloud resources in the Azure portal.
-
-Continuous Integration (CI)/Continuous Deployment (CD): Implement automated deployments from GitHub repositories.
-Basic Networking & Security: Learn how to secure static web apps with features like custom domains and SSL certificates.
+## Description
+This project demonstrates how to create and manage an Azure Storage Account and Blob containers using Azure. It includes step-by-step instructions for setting up the account, creating a blob container, and managing files.
 Tools Used
 1. Azure Portal
 Used to create and manage Linux Web App.
@@ -28,17 +28,7 @@ For source control and deployment integration.
 
 
 ## Steps
-- Login into your Azure account or sign up if no acccount
-- In the Azure Portal, search for App servicees and click Create or plus sign.
-- Configure the Basic Settings
-Subscription: Select your Azure subscription.
-Resource Group: Either create a new resource group or se!
-lect an existing one.
-Name: Enter a unique name for your static web app.
-Region: Choose a region of your preference(e.g., West Europe, East US, etc.).
-![Screenshot (64)](https://github.com/user-attachments/assets/c1d2b1ca-6a07-47d6-a913-93b60bbfdc0b)
-connect your github account
-![Screenshot (65)](https://github.com/user-attachments/assets/2b265628-d930-4a9a-a2f1-c471fd7a583d)
+
 
 
 
