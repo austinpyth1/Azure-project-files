@@ -31,13 +31,23 @@ For source control and deployment integration.
 - In the Azure Portal, search for App servicees and click Create or plus sign.
 - Configure the Basic Settings
 Subscription: Select your Azure subscription.
+
 Resource Group: Either create a new resource group or se!
 lect an existing one.
+
 Name: Enter a unique name for your static web app.
 Region: Choose a region of your preference(e.g., West Europe, East US, etc.).
+
 ![Screenshot (64)](https://github.com/user-attachments/assets/c1d2b1ca-6a07-47d6-a913-93b60bbfdc0b)
+
 connect your github account
+
 ![Screenshot (65)](https://github.com/user-attachments/assets/2b265628-d930-4a9a-a2f1-c471fd7a583d)
+
+#Access and Test Your Static Web App
+Navigate to your Static Web App resource in Azure. Under the Overview tab, you’ll find the URL of your web app (e.g., https://my-static-webapp.azurestaticapps.net/).
+
+Open this URL in a browser to see your deployed static website.
 
 
 
