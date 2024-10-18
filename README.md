@@ -1,4 +1,4 @@
-# Azure Storage Account Setup
+# Guide to Deploying a Secure, Highly Available Virtual Machine (VM) in Azure
 
 ## Objectives
 - Set up an Azure Storage Account in Microsoft Azure.
